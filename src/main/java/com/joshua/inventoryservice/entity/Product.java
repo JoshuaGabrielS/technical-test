@@ -31,7 +31,4 @@ public class Product implements Serializable {
 
     @Column(name = "quantity", nullable = false)
     private Long quantity;
-
-    @Column(name = "store", nullable = false)
-    private String store;
 }

@@ -34,7 +34,6 @@ public class InventoryService {
             simpan.setName(productDto.getName());
             simpan.setPrice(productDto.getPrice());
             simpan.setQuantity(productDto.getQuantity());
-            simpan.setStore(productDto.getStore());
 
             // Menyimpan produk baru ke dalam repositori
             productRepository.save(simpan);
